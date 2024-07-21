@@ -3023,6 +3023,12 @@ select:visited {
   overflow: hidden;
   border-radius: 8px;
 }
+.icon-container .fal.fa-bars {
+  position: relative;
+  top: 0.8em;
+  left: 0%;
+  /* transform: translateX(-90%); */
+}
 
 .ft-about-img-2-wrapper {
   padding-left: 40px;
@@ -15957,9 +15963,17 @@ ul li {
     top: 0;
   }
 
+
   .ft-thx-feature-section {
     padding: 80px 0px;
   }
+}
+
+@media screen and (min-width: 992px) {
+  .icon-container .fal.fa-bars {
+    display: none !important;
+  }
+  
 }
 @media screen and (max-width: 1650px) {
   .ft-header-section.header-style-one .ft-header-cta-info {
